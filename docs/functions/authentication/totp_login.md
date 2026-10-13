@@ -67,7 +67,7 @@ except Exception as e:
 ```json
 {
   "data": {
-    "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...",
+    "token": process.env.API_KEY,
     "sid": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
     "rid": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
     "isUserPwdExpired": false,
